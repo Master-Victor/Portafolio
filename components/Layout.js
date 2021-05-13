@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 import {useRouter} from 'next/router'
 import nprogress from 'nprogress'
 import classNames from "classnames";
-
+import Fondo from './Fondo'
 
 const Layout = ({children, dark = false}) => {
 
@@ -23,6 +23,7 @@ const Layout = ({children, dark = false}) => {
     return (
         <div className={classNames({ "bg-dark": dark, "bg-light": !dark })}>
         <NavBar/>
+        <Fondo/>
             <main className="container py-4">
                 {children}
             </main>

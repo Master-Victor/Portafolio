@@ -6,7 +6,6 @@ import Fondo from '../components/Fondo'
 const index = () => {
     return (
         <Layout>
-            <Fondo/>
             {/* Card Header */}
             <header className="row" >
                 <div className="col-md-12">
