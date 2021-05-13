@@ -44,15 +44,16 @@ const contact = () => {
 }
     return (!submitted) ?(
         <Layout dark={true}>
-            <div className="container">
+            <div className="container" style={{backgroundColor: '#eee', width: '50%', borderRadius: '30px'}}>
                 < form className="main" >
-                    < label htmlFor='name'>Name</label>
+                    < label htmlFor='name' style={{color: 'black'}}>Name</label>
                     < input type='text' name='name' onChange={(e)=>{setName(e.target.value)}} className="inputField" />  
-                    < label htmlFor='email'>Email</label>
+                    < label htmlFor='email' style={{color: 'black'}}>Email</label>
                     < input type='email' name='email' onChange={(e)=>{setEmail(e.target.value)}} className="inputField" />
-                    < label htmlFor='message'>Message</label>
+                    < label htmlFor='message' style={{color: 'black'}}>Message</label>
                     < input type='text' name='message' onChange={(e)=>{setMessage(e.target.value)}} className="inputField" />
-                < input type='submit'onClick={ (e) => {handleSubmit(e)} }/>
+                <br/>
+                < input className="btn btn-dark" style={{borderRadius: '4px'}}type='submit'onClick={ (e) => {handleSubmit(e)} }/>
                 </form >
             </div>
         </Layout>

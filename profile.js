@@ -69,11 +69,11 @@ export const  experiences = [
         to: actual
     },
     {
-        title: 'Estudios de manera independiente',
-        description: 'Ingles basico',
-        from: '2011',
-        to: '2015'
-    }
+        title: 'Trabajo de manera independiente',
+        description: 'Reparacion de computadoras y diseño de paginas web ',
+        from: '2019',
+        to: actual
+    },
 ]
 
 export const proyects = [
@@ -87,6 +87,12 @@ export const proyects = [
         name: 'Poke API',
         description: 'Es una pagina web bastante simple donde se usa login con firebase ,boostrap y una API de Pokemons',
         img: 'pokeAPI.png',
+        link: '#'
+    },
+    {
+        name: 'Portafolio',
+        description: 'Este portafolio lo desarrolle utilizando Next con react y node js, para el apartado visual utilice boostrap y CSS personalizado',
+        img: 'portafolioFoto.png',
         link: '#'
     },
 ]

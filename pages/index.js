@@ -11,12 +11,15 @@ const index = () => {
                     <div className="card card-body bg-secondary text-light">
                         <div className="row">
                             <div className="col-md-4">
-                                <img src="cat.jpg" alt="Foto de Marko Blazevic en Pexels" className="img-fluid"/>
+                                <img src="portafolio.jpeg" alt="Foto de Marko Blazevic en Pexels" className="img-fluid"/>
                             </div>
                             <div className="col-md-8">
                                 <h1>Victor Villafañe</h1>
                                 <h2>React Developer</h2>
-                                <p>Inserte Descripcion aqui</p>
+                                <h5>Mi nombre es Victor, soy desarrollador React, estudiante de Ingenieria en Electronica
+                                    en UTN FRBA, tengo conocimiento en, microcontroladores,diseño de circuitos impresos,reparacion de PCs y Notebooks,desarrollo web utilizando React y su ecosistema,base de datos SQL y NoSQL,desarrollo de apps moviles utilizando React Native , Me gustaria poder avanzar profesionalmente en 
+                                    mis conomientos ya que me gusta ser proactivo y estoy dispuesto a innovarme constantemente.
+                                </h5>
                                 <a href="/hireme"> Hire Me </a>
                             </div>
                         </div>
