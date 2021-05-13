@@ -1,7 +1,7 @@
 // import App from 'next/app'
 import 'bootswatch/dist/cosmo/bootstrap.min.css'
 import '../global.css'
-
+import '../styles/contact.css'
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
   }
