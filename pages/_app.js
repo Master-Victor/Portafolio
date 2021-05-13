@@ -2,6 +2,7 @@
 import 'bootswatch/dist/cosmo/bootstrap.min.css'
 import '../global.css'
 import '../styles/contact.css'
+import '../styles/fondo.sass'
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
   }

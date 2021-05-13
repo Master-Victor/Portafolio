@@ -2,9 +2,11 @@ import React from 'react'
 import Layout from '../components/Layout'
 import {skills, experiences, proyects} from '../profile'
 import Link from 'next/link'
+import Fondo from '../components/Fondo'
 const index = () => {
     return (
         <Layout>
+            <Fondo/>
             {/* Card Header */}
             <header className="row" >
                 <div className="col-md-12">
@@ -16,9 +18,20 @@ const index = () => {
                             <div className="col-md-8">
                                 <h1>Victor Villafañe</h1>
                                 <h2>React Developer</h2>
-                                <h5>Mi nombre es Victor, soy desarrollador React, estudiante de Ingenieria en Electronica
-                                    en UTN FRBA, tengo conocimiento en, microcontroladores,diseño de circuitos impresos,reparacion de PCs y Notebooks,desarrollo web utilizando React y su ecosistema,base de datos SQL y NoSQL,desarrollo de apps moviles utilizando React Native , Me gustaria poder avanzar profesionalmente en 
-                                    mis conomientos ya que me gusta ser proactivo y estoy dispuesto a innovarme constantemente.
+                                <h5>Mi nombre es Victor, soy Desarrollador React, estudiante de Ingenieria en Electrónica
+                                    en UTN FRBA.
+                                    <br/>
+                                    <h4>Tengo conocimiento en:</h4> 
+                                    <ul>
+                                        <li>Microcontroladores.</li>
+                                        <li>Diseño de círcuitos impresos.</li> 
+                                        <li>Reparación de PCs y Notebooks.</li> 
+                                        <li>Desarrollo web utilizando React y su ecosistema.</li> 
+                                        <li>Base de datos SQL y NoSQL.</li> 
+                                        <li>Desarrollo de apps móviles utilizando React Native.</li>
+                                    </ul>
+                                    Me gustaría poder avanzar profesionalmente en 
+                                    mis conocimientos ya que, me gusta ser proactivo y estoy dispuesto a innovarme constantemente.
                                 </h5>
                             </div>
                         </div>
