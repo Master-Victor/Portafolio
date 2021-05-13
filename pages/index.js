@@ -20,7 +20,6 @@ const index = () => {
                                     en UTN FRBA, tengo conocimiento en, microcontroladores,diseño de circuitos impresos,reparacion de PCs y Notebooks,desarrollo web utilizando React y su ecosistema,base de datos SQL y NoSQL,desarrollo de apps moviles utilizando React Native , Me gustaria poder avanzar profesionalmente en 
                                     mis conomientos ya que me gusta ser proactivo y estoy dispuesto a innovarme constantemente.
                                 </h5>
-                                <a href="/hireme"> Hire Me </a>
                             </div>
                         </div>
                     </div>
@@ -60,9 +59,7 @@ const index = () => {
                                 <p>{description}</p>
                             </ui>)
                         }
-                        <Link href="/experience">
-                            <a className="btn btn-light">Know More</a>
-                        </Link>
+                            <a className="btn btn-light" href="cv.png" target="_blank">Know More</a>
                     </div>
                 </div>
             </div>
