@@ -91,7 +91,7 @@ export const proyects = [
     },
     {
         name: 'Portafolio',
-        description: 'Este portafolio lo desarrolle utilizando Next con react y node js, para el apartado visual utilice boostrap y CSS personalizado',
+        description: 'Este portafolio lo desarrolle utilizando Next con react y node js subiendo todo a el hosting de vercel, para el apartado visual utilice boostrap y CSS personalizado',
         img: 'portafolioFoto.png',
         link: '#'
     },
